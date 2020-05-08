@@ -9,7 +9,7 @@ def countdown(number)
   return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(5)
   time = Time.now
   sleep 5.seconds until Time.now < time + 5.seconds
 end
